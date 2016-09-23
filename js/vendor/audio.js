@@ -29,7 +29,7 @@
     var $audioPlayer = document.getElementById('audio-player');
 
     if (isMobile.any()) {
-      $body.addClass('mobile audio-off');
+      $body.addClass('mobile audio-on');
       $audioPlayer.pause();
     } else {
       $body.addClass('audio-on');
