@@ -30,7 +30,7 @@
 
     if (isMobile.any()) {
       $body.addClass('mobile audio-on');
-      $audioPlayer.pause();
+      $audioPlayer.play();
     } else {
       $body.addClass('audio-on');
       $audioPlayer.play();
