@@ -60,6 +60,18 @@ Version: 1.0
 
     });
 
+  /**
+     * Window Resize
+     */
+    $(window).on('resize', function() {
+        /** Portfolio Isotope */
+        $(".gallery").isotope({
+            itemSelector: '.gallery-item',
+                percentPosition: true,
+        });
+
+    });
+
 
     /**
      * Document Ready
