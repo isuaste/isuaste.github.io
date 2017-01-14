@@ -3162,13 +3162,13 @@ button.wave i:nth-child(3) {
   color: #fff;
 }
 
-/* nav social */
+/* nav social*/
 .nav-social {
   position: fixed;
   right: 5px;
   bottom: 20px;
   width: 40px;
-  height: 240px;
+  height: 180px;
   opacity: 1;
   visibility: visible;
   z-index: 3;
